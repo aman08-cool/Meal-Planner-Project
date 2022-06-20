@@ -1,0 +1,26 @@
+{
+  "name": "meal-planner-project",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aman08-cool/Meal-Planner-Project.git"
+  },
+  "author": "Aman Kumar Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aman08-cool/Meal-Planner-Project/issues"
+  },
+  "homepage": "https://github.com/aman08-cool/Meal-Planner-Project#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.1",
+    "parcel": "^2.6.1"
+  },
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
