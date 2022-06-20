@@ -21,7 +21,7 @@ html {
 body {
   color: #615551;
   min-height: calc(100vh - 8vw);
-  background-image: linear-gradient(to bottom right, #fbdb89, #f48982);
+  background-image: linear-gradient(to bottom right, #fbdb89, #87CEEB);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Nunito Sans, sans-serif;
