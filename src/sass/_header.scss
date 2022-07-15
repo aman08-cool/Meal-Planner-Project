@@ -6,8 +6,9 @@
   justify-content: space-between;
 
   &__logo {
-    margin-left: 4rem;
-    height: 4.6rem;
+    display: flex;
+    margin-top: 2rem;
+    height: 40rem;
     display: block;
   }
 }
