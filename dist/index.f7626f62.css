@@ -259,8 +259,9 @@ body {
 }
 
 .header__logo {
-  height: 40rem;
+  height: 35rem;
   margin-top: 2rem;
+  margin-right: 4rem;
   display: block;
 }
 
