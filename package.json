@@ -1,29 +1,22 @@
 {
-  "name": "meal-planner-project",
+  "name": "forkify",
   "version": "1.0.0",
-  "description": "Recipe Application",
+  "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aman08-cool/Meal-Planner-Project.git"
-  },
-  "author": "Aman Kumar Dwivedi",
+  "author": "Jonas Schedtmann",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aman08-cool/Meal-Planner-Project/issues"
-  },
-  "homepage": "https://github.com/aman08-cool/Meal-Planner-Project#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.1",
-    "parcel": "^2.6.1"
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "sass": "^1.26.10"
   },
   "dependencies": {
-    "core-js": "^3.23.2",
+    "core-js": "^3.6.5",
     "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.13.9",
-    "sass": "^1.26.10"
+    "regenerator-runtime": "^0.13.7"
   }
 }
