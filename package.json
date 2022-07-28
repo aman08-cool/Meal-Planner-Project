@@ -5,13 +5,13 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
   },
   "author": "Jonas Schedtmann",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.2",
-    "parcel": "^2.6.2",
+    "@parcel/transformer-sass": "^2.6.1",
+    "parcel": "^2.6.1",
     "sass": "^1.26.10"
   },
   "dependencies": {
